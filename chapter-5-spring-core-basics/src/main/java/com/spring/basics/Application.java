@@ -1,7 +1,6 @@
 package com.spring.basics;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.ImportResource;
@@ -15,8 +14,6 @@ import com.spring.basics.configuration.AppConfig;
 @SpringBootApplication(scanBasePackages = {
 		"com.spring.basics.configuration"
 })
-
-@EnableAutoConfiguration
 
 // xml tabanlı konfigürasyonlar ImportResource ile eklenmelidir!
 @ImportResource("applicationContext.xml")

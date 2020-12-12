@@ -18,6 +18,7 @@ public class DepartmentServiceImpl implements DepartmentService {
 	@Override
 	public List<String> getAll() {
 		
-		return departmentDao.getNames();
+		List<String> names = departmentDao.getNames();
+		return names;
 	}
 }

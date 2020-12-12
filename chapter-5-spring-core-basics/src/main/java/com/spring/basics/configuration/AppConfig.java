@@ -10,6 +10,7 @@ import com.spring.basics.data.exporter.SalaryJsonConverter;
 @Configuration
 @ComponentScan(basePackages = {
 		"com.spring.basics.dto",
+		"com.spring.basics.aspect",
 		"com.spring.basics.data.exporter",
 		"com.spring.basics.model.dao.impl",
 		"com.spring.basics.model.service.impl"
